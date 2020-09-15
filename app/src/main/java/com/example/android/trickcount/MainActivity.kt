@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,9 +31,12 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
-            R.id.action_settings -> true
-            else -> super.onOptionsItemSelected(item)
+        if (item.itemId == R.id.action_settings) {
+            Toast.makeText(applicationContext, "Action clicked", Toast.LENGTH_LONG).show()
+            return true
         }
+
+
+        return super.onOptionsItemSelected(item)
     }
 }
