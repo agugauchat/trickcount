@@ -1,4 +1,4 @@
-package com.example.android.trickcount
+package com.gaucho.android.trickcount
 
 import org.junit.Test
 

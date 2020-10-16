@@ -1,8 +1,8 @@
-package com.example.android.trickcount
+package com.gaucho.android.trickcount
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.android.trickcount.R.layout.main_activity
+import com.gaucho.android.trickcount.R.layout.main_activity
 
 
 class MainActivity : AppCompatActivity() {

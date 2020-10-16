@@ -1,4 +1,4 @@
-package com.example.android.trickcount
+package com.gaucho.android.trickcount
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.android.trickcount", appContext.packageName)
+        assertEquals("com.gaucho.android.trickcount", appContext.packageName)
     }
 }
